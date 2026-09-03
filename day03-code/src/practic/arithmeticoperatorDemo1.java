@@ -1,6 +1,6 @@
 package practic;
 
-public class arithmeticoperator {
+public class arithmeticoperatorDemo1 {
     public static void main(String[] args){
         //整数参与计算,结果只能得到整数
         //小数参与运算,结果有可能是不精确的小数
