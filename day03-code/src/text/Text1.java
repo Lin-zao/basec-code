@@ -12,13 +12,13 @@ public class Text1 {
         //个位
         int ge = number % 10;
         int shi = number / 10 % 10;
-        int bai = number /100 % 10;
+        int ba = number /100 % 10;
         System.out.println("个位为:");
         System.out.println(ge);
         System.out.println("十位为:");
         System.out.println(shi);
         System.out.println("百位为:");
-        System.out.println(bai);
+        System.out.println(ba);
 
 
     }
