@@ -1,4 +1,4 @@
-package practic;
+package arithmeticoperator;
 
 public class arithmeticoperatorDemo4 {
     public static void main(String[] args){
