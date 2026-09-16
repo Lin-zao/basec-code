@@ -25,10 +25,13 @@ public class GirlfriendTest {
         System.out.println(avg);
 
         //统计年龄比平均值低的女朋友有几个？并把她们的所有信息打印出来。
+        int count = 0;
         for (int i = 0; i < arr.length; i++) {
             if(arr[i].getAge() < avg){
                 System.out.println(arr[i].getName()+" ," +arr[i].getAge()+" ," +arr[i].getGender()+" ," +arr[i].getLove());
+                count++;
             }
         }
+        System.out.println(count);
     }
 }
