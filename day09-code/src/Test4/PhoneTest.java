@@ -8,7 +8,7 @@ public class PhoneTest {
         Phone[] arr = new Phone[3];
 
         //2.创建手机对象
-        Phone p1 = new Phone("小米",4999,"黑色");
+        Phone p1 = new Phone("小红",4999,"黑色");
         Phone p2 = new Phone("苹果",6999,"白色");
         Phone p3 = new Phone("三星",48999,"蓝色");
 
